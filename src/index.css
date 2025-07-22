@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 15% 25%;
+
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 262 83% 58%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.75rem;
+
+    /* Portfolio specific colors */
+    --hero-gradient-start: 262 83% 58%;
+    --hero-gradient-end: 300 76% 50%;
+    --skill-tag: 262 83% 58%;
+    --skill-tag-foreground: 210 40% 98%;
+    --project-card: 0 0% 100%;
+    --project-hover: 262 83% 58%;
+
+    /* Shadows */
+    --shadow-light: 0 4px 6px -1px hsl(220 15% 15% / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(220 15% 15% / 0.1);
+    --shadow-heavy: 0 25px 50px -12px hsl(220 15% 15% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 220 15% 92%;
+
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 92%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 92%;
+
+    --primary: 262 83% 65%;
+    --primary-foreground: 220 25% 8%;
+
+    --secondary: 220 25% 14%;
+    --secondary-foreground: 220 15% 85%;
+
+    --muted: 220 25% 12%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 262 83% 65%;
+    --accent-foreground: 220 25% 8%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 25% 18%;
+    --input: 220 25% 18%;
+    --ring: 262 83% 65%;
+
+    /* Portfolio specific colors */
+    --hero-gradient-start: 262 83% 65%;
+    --hero-gradient-end: 300 76% 60%;
+    --skill-tag: 262 83% 65%;
+    --skill-tag-foreground: 220 25% 8%;
+    --project-card: 220 25% 12%;
+    --project-hover: 262 83% 65%;
+
+    /* Shadows */
+    --shadow-light: 0 4px 6px -1px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 10px 15px -3px hsl(0 0% 0% / 0.3);
+    --shadow-heavy: 0 25px 50px -12px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.8);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
