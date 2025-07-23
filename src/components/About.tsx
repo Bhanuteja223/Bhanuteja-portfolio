@@ -70,13 +70,13 @@ const About = () => {
             <h2 className={"text-4xl md:text-5xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent transition-all duration-1000 animate-fade-in-up"}>
               About Me
             </h2>
-            <p className={`text-xl text-muted-foreground max-w-3xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
+            <p className={"text-xl text-muted-foreground max-w-3xl mx-auto transition-all duration-1000 animate-fade-in-up"} style={{ animationDelay: '0.2s' }}>
               A dedicated Full Stack Developer with a passion for designing and implementing efficient, user-centric web applications.
             </p>
           </div>
 
           {/* Professional Summary */}
-          <div className={`bg-card rounded-2xl p-8 shadow-portfolio-medium mb-16 transition-all duration-1000 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`} style={{ animationDelay: '0.4s' }}>
+          <div className={"bg-card rounded-2xl p-8 shadow-portfolio-medium mb-16 transition-all duration-1000 animate-scale-in"} style={{ animationDelay: '0.4s' }}>
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-semibold mb-4 text-card-foreground">
@@ -107,7 +107,7 @@ const About = () => {
                 {features.map((feature, index) => (
                   <div
                     key={feature.title}
-                    className={`p-4 bg-muted rounded-xl hover:bg-primary/10 transition-all duration-300 hover:scale-105 ${isVisible ? 'animate-bounce-in' : 'opacity-0'}`}
+                    className={"p-4 bg-muted rounded-xl hover:bg-primary/10 transition-all duration-300 hover:scale-105 animate-bounce-in"}
                     style={{ animationDelay: `${0.6 + index * 0.1}s` }}
                   >
                     <feature.icon className="h-8 w-8 text-primary mb-2" />
