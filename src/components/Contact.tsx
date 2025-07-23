@@ -112,10 +112,11 @@ const Contact = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className={`text-4xl md:text-5xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-              Get In Touch
+              Let's Connect
             </h2>
             <p className={`text-xl text-muted-foreground max-w-3xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
-              I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together to bring your ideas to life.
+              New opportunities and challenging projects always capture my interest. 
+              Let's discuss how my full-stack development skills can contribute to your next success. <br/> "Feel free to reach out."
             </p>
           </div>
 

@@ -74,7 +74,7 @@ const Footer = () => {
 
               {/* Quick Links */}
               <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                <h4 className="text-lg font-semibold mb-4 text-card-foreground">Quick Links</h4>
+                {/* <h4 className="text-lg font-semibold mb-4 text-card-foreground">Quick Links</h4>
                 <nav className="space-y-2">
                   {["Home", "About", "Projects", "Contact"].map((link) => (
                     <button
@@ -88,7 +88,7 @@ const Footer = () => {
                       {link}
                     </button>
                   ))}
-                </nav>
+                </nav> */}
               </div>
 
               {/* Contact Info */}

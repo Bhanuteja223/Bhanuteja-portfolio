@@ -71,7 +71,7 @@ const About = () => {
               About Me
             </h2>
             <p className={`text-xl text-muted-foreground max-w-3xl mx-auto transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
-              A passionate Full Stack Developer with 1+ years of experience in creating modern, scalable web applications using cutting-edge technologies.
+              A dedicated Full Stack Developer with a passion for designing and implementing efficient, user-centric web applications.
             </p>
           </div>
 
@@ -83,9 +83,9 @@ const About = () => {
                   Professional Summary
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  I'm a dedicated Full Stack Developer with 2+ years of experience in building modern web applications. 
-                  I specialize in React.js and Node.js ecosystems, with a strong foundation in both frontend and backend technologies. 
-                  My passion lies in creating efficient, scalable solutions that provide exceptional user experiences.
+                  As a Full Stack Developer at ApplyWizz with 1+ years of experience, I specialize in architecting and developing dynamic web applications leveraging React.js (with JSX) for the frontend and robust Node.js (with Express.js) and TypeScript solutions for the backend. 
+                  My key contributions include significantly improving application performance through optimized API queries and caching strategies, and designing scalable RESTful APIs, often utilizing Supabase for data management. 
+                  I am adept at full-lifecycle development and eager to drive product innovation
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center text-sm">
@@ -151,9 +151,9 @@ const About = () => {
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
                 <div className="pb-8">
-                  <h4 className="text-xl font-semibold text-card-foreground">Bachelor of Science in Computer Science</h4>
-                  <p className="text-primary font-medium">Tech University</p>
-                  <p className="text-muted-foreground">Graduated: 2022</p>
+                  <h4 className="text-xl font-semibold text-card-foreground">Software Developer Engineer</h4>
+                  <p className="text-primary font-medium">@ApplyWizz</p>
+                  <p className="text-muted-foreground">06/2025 - present</p>
                   <p className="text-sm text-muted-foreground mt-2">
                     Focused on software engineering, data structures, algorithms, and web development technologies.
                   </p>
@@ -164,9 +164,9 @@ const About = () => {
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
                 <div className="pb-8">
-                  <h4 className="text-xl font-semibold text-card-foreground">Bachelor of Science in Computer Science</h4>
-                  <p className="text-primary font-medium">Tech University</p>
-                  <p className="text-muted-foreground">Graduated: 2022</p>
+                  <h4 className="text-xl font-semibold text-card-foreground">NxtWave Institutions, Hyderabad</h4>
+                  <p className="text-primary font-medium">Full Stack Developer Trainee</p>
+                  <p className="text-muted-foreground">2024 - 2025</p>
                   <p className="text-sm text-muted-foreground mt-2">
                     Focused on software engineering, data structures, algorithms, and web development technologies.
                   </p>
@@ -177,9 +177,9 @@ const About = () => {
               <div className="relative pl-8 border-l-2 border-primary/30">
                 <div className="absolute -left-2 top-0 w-4 h-4 bg-primary rounded-full"></div>
                 <div className="pb-8">
-                  <h4 className="text-xl font-semibold text-card-foreground">Bachelor of Science in Computer Science</h4>
-                  <p className="text-primary font-medium">Tech University</p>
-                  <p className="text-muted-foreground">Graduated: 2022</p>
+                  <h4 className="text-xl font-semibold text-card-foreground">Bachelor of Technology in EEE</h4>
+                  <p className="text-primary font-medium">Malla Reddy College of Engineering and Technology</p>
+                  <p className="text-muted-foreground">Graduated: 2024</p>
                   <p className="text-sm text-muted-foreground mt-2">
                     Focused on software engineering, data structures, algorithms, and web development technologies.
                   </p>
