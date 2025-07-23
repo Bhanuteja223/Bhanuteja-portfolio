@@ -120,14 +120,14 @@ const About = () => {
           </div>
 
           {/* Skills Section */}
-          <div className={`mb-16 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.8s' }}>
+          <div className={"mb-16 transition-all duration-1000 animate-fade-in-up"} style={{ animationDelay: '0.8s' }}>
             <h3 className="text-3xl font-bold text-center mb-12 text-foreground">My Skills</h3>
             <div className="bg-card rounded-2xl p-8 shadow-portfolio-medium">
               <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                 {skills.map((skill, index) => (
                   <div
                     key={skill.name}
-                    className={`transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}
+                    className={"transition-all duration-1000 animate-fade-in-up"}
                     style={{ animationDelay: `${1 + index * 0.1}s` }}
                   >
                     <div className="flex justify-between items-center mb-2">
@@ -145,7 +145,7 @@ const About = () => {
           </div>
 
           {/* Education Section */}
-          <div className={`bg-card rounded-2xl p-8 shadow-portfolio-medium transition-all duration-1000 ${isVisible ? 'animate-slide-in-left' : 'opacity-0'}`} style={{ animationDelay: '1.2s' }}>
+          <div className={"bg-card rounded-2xl p-8 shadow-portfolio-medium transition-all duration-1000 animate-slide-in-left"} style={{ animationDelay: '1.2s' }}>
             <h3 className="text-3xl font-bold text-center mb-8 text-card-foreground">My Journey</h3>
             <div className="max-w-2xl mx-auto">
               <div className="relative pl-8 border-l-2 border-primary/30">
