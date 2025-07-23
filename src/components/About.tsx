@@ -90,7 +90,7 @@ const About = () => {
                 <div className="space-y-2">
                   <div className="flex items-center text-sm">
                     <span className="font-medium text-primary mr-2">📍</span>
-                    <span>Location: Hyderabad</span>
+                    <span>Location: Hyderabad, India</span>
                   </div>
                   <div className="flex items-center text-sm">
                     <span className="font-medium text-primary mr-2">💼</span>
